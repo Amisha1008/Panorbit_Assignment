@@ -1,0 +1,50 @@
+/* If the screen size is 990px or more*/
+@media only screen and (min-width: 990px) {
+  #sidebar1 {
+    flex-direction: column;
+  }
+  .navbar-expand-lg {
+    background-color: rgb(88, 25, 189) !important;
+    margin-bottom: 0px !important;
+    border-radius: 1rem;
+  }
+  #sidebarBrand {
+    display: none;
+  }
+}
+
+#sidebar2 {
+  font-family: "Poppins";
+  font-size: medium;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+#sidebar3 {
+  margin-left: 0.6rem;
+  font-size: large;
+}
+
+#sidebarBrand {
+  font-family: "Poppins";
+  font-size: large;
+  font-weight: 500;
+  color: rgb(179, 173, 173);
+  cursor: pointer;
+}
+
+#tooltip-bottom,
+.tooltip-inner {
+  background-color: white !important;
+  opacity: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+  color: black;
+  font-family: "Poppins";
+  font-size: medium;
+  font-weight: 500;
+  max-width: 300px;
+  border-radius: 1rem;
+}

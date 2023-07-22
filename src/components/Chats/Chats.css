@@ -1,0 +1,44 @@
+#chats1 {
+  background-color: rgb(38, 7, 175);
+  color: #fff;
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-size: medium;
+  font-weight: 400;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#chats2 {
+  font-size: 1.5rem;
+}
+
+#chats3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dedbdb;
+  cursor: pointer;
+}
+
+#tooltip-bottom,
+.tooltip-inner {
+  background-color: white !important;
+  opacity: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+  color: black;
+  font-family: "Poppins";
+  font-size: medium;
+  font-weight: 500;
+  max-width: 300px;
+  border-radius: 1rem;
+}

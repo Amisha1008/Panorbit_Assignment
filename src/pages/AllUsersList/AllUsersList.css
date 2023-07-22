@@ -1,0 +1,48 @@
+#allUsersList1 {
+  background: url("../../assets/Group3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 4rem; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#allUsersList2 {
+  height: 60vh;
+  background-color: #ffffff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+  overflow: auto;
+  padding: 0rem 1rem;
+}
+
+#allUsersList3 {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  font-size: x-large;
+  font-family: "Poppins";
+  font-weight: 600;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: darkslategray;
+  background-color: #f7f7f7;
+}
+
+#allUsersList5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dedbdb;
+  cursor: pointer;
+}
